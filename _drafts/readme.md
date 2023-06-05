@@ -1,27 +1,50 @@
-﻿use the following commends to build up my website on git-page
+﻿1. use the following commends to build up my website on git-page
+    
+        git init
+        git checkout -b gh-pages
+        git status
+        git add .
+        git commit -m "init commit"
 
-    git init
-    git checkout -b gh-pages
-    git status
-    git add .
-    git commit -m "init commit"
+        git remote add origin [http://...](https://github.com/xiaorong117/Team_blog.git)
+        git push origin gh-pages
 
-    git remote add origin [http://...](https://github.com/xiaorong117/Team_blog.git)
-    git push origin gh-pages
+2. use the following commends to update my website on git-page
 
-use the following commends to update my website on git-page
+        git status
+        git add .
+        git commit -m "init commit"
+        git push origin gh-pages
 
-    git status
-    git add .
-    git commit -m "init commit"
-    git push origin gh-pages
-
-the site is as follows:
+3. the site is as follows:
 ***https://xiaorong117.github.io/Team_blog/***
 
-use the following commends to see my local website
+1. use the following commends to see my local website
     
-    bundle exec jekyll serve
+         bundle exec jekyll serve
+
+2.  _config.yml
+    - default settings for posts and image
+  
+        ```
+        defaults:
+            - scope:
+                path: ""
+                type: "posts"
+            values: 
+                layout: "post"
+                categories: "my-blogs"
+                permalink: /:categories/:day/:month/:year/:title.html
+            - scope:
+                path: "assets/img"
+            values:
+                image: true
+        ```
+    - baseurl: "/Team_blog" # the subpath of your site, e.g. /blog
+3. 
+
+    
+         
 
 
 ---
