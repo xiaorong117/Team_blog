@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CQU - Chaozhong Qin
+title: CQU - Multiphase in Porous media Team
 email: chaozhong.qin@cqu.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   研究内容主要包括：数字岩心分析，多尺度渗流力学和基于微纳米芯片的多孔介质反应流动与传输，
@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   欢迎计算力学，渗流力学，油气工程等相关背景的研究生、博士和博士后加入我们。
 baseurl: "Team_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: Nan
 github_username:  xiaorong117
 
 # Build settings
