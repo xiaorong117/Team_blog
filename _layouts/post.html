@@ -1,0 +1,20 @@
+﻿---
+layout: "wrapper" 
+MVauthor: "Rong"
+---
+
+
+<h1>Page title:     {{page.title}}</h1>
+<h2>Layout author:  {{layout.MVauthor}}</h2>
+<h2>Blog author:    {{page.MVauthor}}</h2>
+<h2>Blogs Navigation: </h2>
+
+
+<!-- if elsif else endif == or and -->
+{% for post in site.posts %}
+<li><a style="{% if page.url == post.url %}color:green;{% endif %}" href="{{post.url}}">{{ post.title }}</a></li>
+{% endfor %}
+<hr>
+
+<h2>Content:</h2>
+{{ content }}
