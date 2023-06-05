@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   相关应用背景涉及非常规油气开发、燃料电池、二氧化碳地质封存和地下储能。
   目前与乌特列支大学，埃因霍温理工大学，苏黎世联邦理工学院，亚利桑那大学等海外研究机构保持紧密交流与合作，
   欢迎计算力学，渗流力学，油气工程等相关背景的研究生、博士和博士后加入我们。
-baseurl: "Team_blog" # the subpath of your site, e.g. /blog
+baseurl: "/Team_blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Nan
 github_username:  xiaorong117
