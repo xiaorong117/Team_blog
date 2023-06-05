@@ -18,8 +18,10 @@ MVauthor: "Rong"
 
 <h2>Content:</h2>
 {{ content }}
+
+<hr>
 {% for file in site.static_files %}
-    {% if file.image %}
-        <img src="/Team_blog/{{file.path}}" alt="{file.name}">
+    {% if file.image and file.name == "2.png"%}
+        <img src="/Team_blog{{file.path}}" alt="{file.name}">
     {% endif %}
 {% endfor %}

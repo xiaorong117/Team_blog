@@ -8,7 +8,7 @@
 <hr>    <br> 
     <h1>Page title:     My 2st Blog</h1>
 <h2>Layout author:  Rong</h2>
-<h2>Blog author:    author name</h2>
+<h2>Blog author:    Rong</h2>
 <h2>Blogs Navigation: </h2>
 
 
@@ -25,13 +25,78 @@
 <hr>
 
 <h2>Content:</h2>
-<p>THis is my 2st blog.</p>
+<ol>
+  <li>
+    <p>use the following commends to build up my website on git-page</p>
 
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git init
+ git checkout -b gh-pages
+ git status
+ git add .
+ git commit -m "init commit"
+
+ git remote add origin https://github.com/xiaorong117/Team_blog.git
+ git push origin gh-pages
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>use the following commends to update my website on git-page</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git status
+ git add .
+ git commit -m "init commit"
+ git push origin gh-pages
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>the site is as follows:
+<a href="https://xiaorong117.github.io/Team_blog/"><strong><em>https://xiaorong117.github.io/Team_blog/</em></strong></a></p>
+  </li>
+  <li>
+    <p>use the following commends to see my local website</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  bundle exec jekyll serve
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>_config.yml</p>
+    <ul>
+      <li>
+        <p>default settings for posts and image</p>
+
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  defaults:
+      - scope:
+          path: ""
+          type: "posts"
+      values: 
+          layout: "post"
+          categories: "my-blogs"
+          permalink: /:categories/:day/:month/:year/:title.html
+      - scope:
+          path: "assets/img"
+      values:
+          image: true
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>baseurl: “/Team_blog” # the subpath of your site, e.g. /blog</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+
+
+<hr>
 
     
 
     
-        <img src="/Team_blog//assets/img/pic.jpg" alt="{file.name}">
+        <img src="/Team_blog/assets/img/2.png" alt="{file.name}">
+    
+
+    
+
     
 
     
