@@ -6,7 +6,7 @@
         git add .
         git commit -m "init commit"
 
-        git remote add origin [http://...](https://github.com/xiaorong117/Team_blog.git)
+        git remote add origin https://github.com/xiaorong117/Team_blog.git
         git push origin gh-pages
 
 2. use the following commends to update my website on git-page
@@ -41,7 +41,7 @@
                 image: true
         ```
     - baseurl: "/Team_blog" # the subpath of your site, e.g. /blog
-3. 
+
 
     
          
